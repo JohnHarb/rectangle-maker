@@ -1,0 +1,51 @@
+input:invalid
+{
+  background-color: red;
+}
+
+h1
+{
+  color: blue;
+  font-size: x-large;
+  text-align: center;
+}
+
+table, td
+{ 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+.button
+{
+  background-color: lightgrey;
+  color: blue;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px
+}
+
+div
+{
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.rectangle
+{
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+}
+
+#hidden
+{
+  color: red;
+  font-size: x-large;
+  text-align: center;
+}

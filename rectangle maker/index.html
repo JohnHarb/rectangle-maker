@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Rectangle Maker</h1>
+    <form id="form1">
+    <table>
+    <tr>
+        <td>top (0-600)</td>
+        <td> <input name="top" id="top" min="0" max="600" type="number" required="reqired"/></td>
+    </tr>
+    <tr>
+        <td>left (0-600)</td>
+        <td> <input name="left" id="left" min="0" max="600" type="number" required="reqired"/></td>
+    </tr>
+    <tr>
+        <td>red (0-255)</td>
+        <td> <input name="red" id="red" min="0" max="255" type="number" required="reqired"/></td>
+    </tr>
+    <tr>
+        <td>green (0-255)</td>
+        <td> <input name="green" id="green" min="0" max="255" type="number" required="reqired" </td>
+    </tr>
+    <tr>
+        <td>blue (0-255)</td>
+        <td> <input name="blue" id="blue" min="0" max="255" type="number" required="reqired" /></td>
+    </tr>
+    <tr>
+        <td>height (10-100)</td>
+        <td> <input name="height" id="height" min="10" max="100" type="number" required="reqired" /></td>
+    </tr>
+    <tr>
+        <td>width (10-100)</td>
+        <td> <input name="width" id="width" min="10" max="100" type="number" required="reqired"/></td>
+    </tr>
+    </table>
+    <br></br>
+    <input id="b1" class="button" type="submit" form="form1" value="create" onclick="checkError()">
+    <input class="button" type="reset" form="form1" value="reset">
+    <br></br>
+    <p id="hidden">ERROR</p>
+    <br></br>
+    </form>
+    <div id="myarea"></div>
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous">
+    </script>
+      <script src="script.js"></script>
+  </body>
+</html>
